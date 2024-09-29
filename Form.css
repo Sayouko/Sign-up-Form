@@ -1,1 +1,98 @@
+.transparent-square{
+    width: 30%;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 0px;
+    top: 20%;
+    z-index: 1;
+}
 
+.image{
+    height: 100%;
+    display: grid;
+    max-width: 30%;
+    max-height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+.white-square{
+    background-color: rgb(255, 255, 255);
+    height: 30%;
+    width: 70%;
+    position: absolute;
+    right: 0px;
+    top: 38.7%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.logo{
+    width: 6%;
+    position: absolute;
+    left: 7%;
+    top: 21.5%;
+    z-index: 1;
+}
+
+.odin{
+    font-family: Norse;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    left: 13%;
+    top: 14.5%;
+    font-size: 120px;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    position:fixed;
+    bottom: 2px;
+    left: 8.5%;
+    color: white;
+    opacity: 0.75;
+}
+
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    bottom: 5%;
+    left: 7%;
+    color: white;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.text{
+    color: black;
+    font-weight: bold;
+    position: fixed;
+    right: 25%;
+    top: 13%;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.second-line{
+    display: block;
+    margin-top: 20px;
+}
+
+button{
+    position: absolute;
+    background-color: rgb(81, 114, 81);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    padding: 17px 53px;
+    font-size: 20px;
+    bottom: 21%;
+    left: 33%;
+}
